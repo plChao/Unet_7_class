@@ -1,8 +1,7 @@
 # 7_class_Unet
 > 目前整理好 test flow, train flow 並未整理
 ## Folder Structure
-> 為了可以跟其他 code 共用 data 資料，data 放在上一層
-NEEDED 代表需要從外部下載，其他則會由 code 產生
+> 為了可以跟其他 code 共用 data 資料，data 放在上一層。NEEDED 代表需要從外部下載，其他則會由 code 產生
  
 ```
 ├─data
