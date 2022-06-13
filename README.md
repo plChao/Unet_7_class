@@ -2,13 +2,13 @@
 > 目前整理好 test flow, train flow 並未整理
 ## Folder Structure
 > 為了可以跟其他 code 共用 data 資料，data 放在上一層
-> NEEDED 代表需要從外部下載，其他則會由 code 產生
+NEEDED 代表需要從外部下載，其他則會由 code 產生
  
 ```
 ├─data
 │  ├─1_o_image_PBLtest  # NEEDED: The image of orignal size
 │  └─resize_data
-└─Unet_7_class # this repo
+└─Unet_7_class          # This repository
     ├─result   
     │  ├─raw_seg
     │  └─seg_resize
@@ -35,5 +35,5 @@
         ![image](https://user-images.githubusercontent.com/32629259/173272267-00ffb2ef-d7d6-4679-8140-6ceb095700bf.png)
     2. Run `1_img_resize.ipynb` to resize x-ray
     3. Download `0801_7_classes_2_train_ten_classes_100.h5` from [here](https://drive.google.com/file/d/1L-YzU81Gxwb8Pk9bSFcUgBSrQVrA-p8h/view?usp=sharing) and put it under `./weight`
-    3. Run `2_test_model.ipynb` to do the segmentation
-    4. Run `3_label_resize.ipynb` to resize the result back
+    4. Run `2_test_model.ipynb` to do the segmentation
+    5. Run `3_label_resize.ipynb` to resize the result back
