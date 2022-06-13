@@ -3,20 +3,21 @@
 ## Folder Structure
 > 為了可以跟其他 code 共用 data 資料，data 放在上一層
 > NEEDED 代表需要從外部下載，其他則會由 code 產生
-    ```
-    ├─data
-    │  ├─1_o_image_PBLtest  # NEEDED: The image of orignal size
-    │  └─resize_data
-    └─Unet_7_class # this repo
-        ├─result   
-        │  ├─raw_seg
-        │  └─seg_resize
-        └─weight            # NEEDED: The download link is in the 'Steps' of 'Testing flow'
-        └─1_img_resize.ipynb
-        └─2_test_model.ipynb
-        └─3_label_resize.ipynb
-        
-    ```
+ 
+```
+├─data
+│  ├─1_o_image_PBLtest  # NEEDED: The image of orignal size
+│  └─resize_data
+└─Unet_7_class # this repo
+    ├─result   
+    │  ├─raw_seg
+    │  └─seg_resize
+    └─weight            # NEEDED: The download link is in the 'Steps' of 'Testing flow'
+    └─1_img_resize.ipynb
+    └─2_test_model.ipynb
+    └─3_label_resize.ipynb
+    
+```
 ## Install env
 > 如果直接跑沒有環境問題，就可以跳過
 1. using conda virtual environment
