@@ -15,8 +15,8 @@
 ## Testing flow
 1. Overview
 2. Steps
-    1. Find `TODO:` key word to modify path of your own before runing each script
-        1. Ex: 
+    1. Find `TODO:` key word to modify path of your own before runing each script, e.g. 
+        ![image](https://user-images.githubusercontent.com/32629259/173272267-00ffb2ef-d7d6-4679-8140-6ceb095700bf.png)
     2. Run `1_img_resize.ipynb` to resize x-ray
     3. Download `0801_7_classes_2_train_ten_classes_100.h5` from [here](https://drive.google.com/file/d/1L-YzU81Gxwb8Pk9bSFcUgBSrQVrA-p8h/view?usp=sharing) and put it under `./weight`
     3. Run `2_test_model.ipynb` to do the segmentation
